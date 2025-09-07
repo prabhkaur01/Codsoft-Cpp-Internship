@@ -97,7 +97,7 @@ int main() {
         cin >> playAgain;
     } while (playAgain == 'y' || playAgain == 'Y');
 
-    cout << "Final Scores → X: " << scoreX << " | O: " << scoreO << endl;
+    cout << "Final Scores : X: " << scoreX << " | O: " << scoreO << endl;
     cout << "Thanks for playing!\n";
     return 0;
 }
